@@ -48,7 +48,7 @@ if ret:
         ret, image = cv2.imencode('.jpg', frame)
         ibytes = image.tobytes()
         image_obj = Image.open(io.BytesIO(ibytes))
-        image_obj.save('cv.jpg')
+        image_obj.save('test.jpg')
         print(ibytes)
 
 fcap.release()
