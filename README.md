@@ -1,5 +1,5 @@
 # cvyolovrk3568
-vedio yolov for rk3568
+video yolov for rk3568
 
 # Use
 - debain 10 in rk3568
